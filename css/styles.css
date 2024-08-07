@@ -542,6 +542,7 @@ form .paragraph {
   border-radius: 4px;
   width: 360px;
   height: 40px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus,
@@ -557,6 +558,7 @@ form .paragraph {
   width: 360px;
   height: 120px;
   padding: 8px 16px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .textarea::placeholder {
@@ -617,6 +619,7 @@ form .paragraph {
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   padding: 8px 16px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-input::placeholder {
