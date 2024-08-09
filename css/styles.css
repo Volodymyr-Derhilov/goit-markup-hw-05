@@ -588,7 +588,7 @@ form .button {
   border-color: #4d5ae5;
 }
 
-.form-input:focus .field-icon {
+.form-input:focus + .field-icon {
   fill: #4d5ae5;
 }
 
@@ -606,6 +606,7 @@ form .button {
   resize: none;
   padding: 8px 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: transparent;
 }
 
 .textarea::placeholder {
@@ -641,20 +642,10 @@ form .button {
   color: #4d5ae5;
 }
 
-/*.checkbox.visually-hidden:checked .privacy-policy {
+.checkbox.visually-hidden:checked + .checkbox-label > .checkbox-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-}*/
-
-.input-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 360px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px;
-  padding: 8px;
 }
 
 .subscribe .paragraph {
